@@ -2446,6 +2446,7 @@ In the future, we might start automatically compiling incompatible third-party m
 # styled-components
 # npm install @types/styled-components
 # npm install @types/jquery
+# npm i --save react-lazy-load
 
 ## Alternatives to Ejecting
 

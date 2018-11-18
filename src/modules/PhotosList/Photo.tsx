@@ -1,5 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import LazyLoad from 'react-lazy-load';
 
 const Img = styled.img`
     display: block;
@@ -18,8 +19,8 @@ interface IPhotoProps {
 
 export const Photo: React.StatelessComponent<IPhotoProps> = (props: IPhotoProps) => {
     return(
-        <div>
+        <LazyLoad>
             <Img src={props.thumbnailUrl} alt=""/>
-        </div>
+        </LazyLoad>
     );
 }
