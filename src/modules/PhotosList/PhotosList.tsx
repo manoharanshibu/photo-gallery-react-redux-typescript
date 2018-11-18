@@ -10,7 +10,7 @@ import './photos.css';
 import { IPhoto } from '../../reducers/photos/models';
 import { getPhotos } from '../../actions/photos_action';
 import { IStore } from '../../reducers/index';
-import { Loader } from 'src/utilities/Loader';
+import { Loader } from '../../utilities/Loader'
 
 interface IProps{
     photos: IPhoto[];

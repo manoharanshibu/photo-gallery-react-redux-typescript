@@ -2447,6 +2447,8 @@ In the future, we might start automatically compiling incompatible third-party m
 # npm install @types/styled-components
 # npm install @types/jquery
 # npm i --save react-lazy-load
+# npm install --save-dev jest enzyme enzyme-adapter-react-16 @types/enzyme
+# 
 
 ## Alternatives to Ejecting
 
